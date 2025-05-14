@@ -29,7 +29,7 @@ The tool uses data from the Pima Indians dataset (`diabetes.csv`) to predict the
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/adourian-Diabetes-Prediction-Tool.git
+   git clone https://github.com/adourian/Diabetes-Prediction-Tool.git
    cd adourian-Diabetes-Prediction-Tool
    ```
 
