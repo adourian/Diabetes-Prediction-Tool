@@ -1,12 +1,10 @@
 # Diabetes Prediction Tool
 
-I recently came across Streamlit, a tool designed for building interactive web apps with minimal code. I wanted to try it out, so I took on a small project to test how it could be used to create simple end-to-end solutions with low-code. I was curious to see how easy it would be to go from an idea to something functional without spending hours on setup or front-end work.
+This project explores how low-code tools like Streamlit can be used to quickly prototype interactive machine learning applications. I wanted to test how fast I could go from concept to a working tool without heavy setup or frontend code — and see how viable Streamlit is for end-to-end deployment.
 
-I decided to build an interactive tool to predict the probability of diabetes based on user inputs. It felt like a practical and relatable use case—perfect for exploring Streamlit's capabilities while creating something functional and user-friendly.
+I chose a practical use case: predicting diabetes risk from basic health metrics. I applied feature engineering (including KMeans clustering) and trained an ensemble model combining XGBoost, LightGBM, and Logistic Regression to make predictions. The app allows users to input clinical data and receive instant, interpretable feedback on their diabetes risk.
 
-The project involved taking a simple dataset, experimenting with feature engineering and clustering, and building an ensemble model combining XGBoost, LightGBM, and Logistic Regression. The result is a Streamlit app that allows users to input their data and instantly see predictions, making inference very easy.
-
-This project is by no means a polished product; it's a fun experiment, a tinkering session to learn and explore.
+While not intended as a production system, the project served as a hands-on experiment in deploying ML models with a clean user interface — showcasing how quickly functional tools can be built with the right frameworks.
 
 ---
 
