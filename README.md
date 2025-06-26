@@ -10,7 +10,7 @@ While not intended as a production system, the project served as a hands-on expe
 
 ## Background
 
-The tool uses data from the Pima Indians dataset (`diabetes.csv`) to predict the likelihood of diabetes. The underlying models include an ensemble of **XGBoost**, **LightGBM**, and **Logistic Regression**, which have been trained and optimized using various techniques like feature engineering, clustering, and hyperparameter tuning. The focus is on providing interpretable and actionable predictions.
+The tool uses the Pima Indians Diabetes Dataset to estimate an individual’s risk of developing diabetes. It’s powered by an ensemble model combining XGBoost, LightGBM, and Logistic Regression, trained with feature engineering, KMeans clustering, and hyperparameter tuning. The goal is to deliver fast, interpretable, and actionable predictions through a simple, interactive interface.
 
 ---
 
